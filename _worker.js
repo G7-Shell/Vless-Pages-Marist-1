@@ -163,8 +163,8 @@ async function vlessOverWSHandler(request) {
             const {
                 hasError,
                 message,
-                portRemote = 11443,
-                addressRemote = '148.100.78.104',
+                portRemote = 10443,
+                addressRemote = '',
                 rawDataIndex,
                 vlessVersion = new Uint8Array([0, 0]),
                 isUDP,
